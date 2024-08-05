@@ -28,7 +28,9 @@ The goal of this project was to create a responsive section that displays four f
 
 Here’s a preview of the completed feature section:
 
-![Four Card Feature Section](./screenshot.png)
+![Four Card Feature Section Desktop View]([./screenshot.png](https://github.com/Ayomide-Philip/four-card-feature-section/blob/5b3c1de204ab79192753ece0fdcb6ca7f3912355/Screenshot%202024-08-05%20120907.png))
+
+![Four Card Feature Section mobile view]([./screenshot.png](https://github.com/Ayomide-Philip/four-card-feature-section/blob/5b3c1de204ab79192753ece0fdcb6ca7f3912355/Screenshot%202024-08-05%20120907.png))
 
 ### Links
 
