@@ -1,0 +1,130 @@
+.attribution { font-size: 11px; text-align: center;font-family: cursive; font-size: 1rem; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+body{
+    background-color: hsl(0, 0%, 98%);
+}
+body > div{
+    width: 100%;
+}
+
+div.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+div.heading > div {
+    width: 50%;
+    text-align: center;
+}
+
+.heading > h2, .heading > p {
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.heading > div > h2{
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+.heading > div > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+   
+    background-color: white;
+    border-radius: 10px;
+    justify-items: center;
+    width: 250px;
+    height: 250px;
+    
+}
+
+.card h3 {
+    margin-bottom: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 10px;
+}
+
+.card img{
+    justify-self: end;
+    margin-right: 10%;
+}
+
+.card-container{
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+}
+
+div.card-container > .card{
+
+    align-self: center;
+    margin: 10px;
+
+}
+
+.sub-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.sub-card .card{
+width: 300px;
+height: 350px;
+}
+
+.red{
+    justify-self: flex-start;
+    margin-bottom: 10px;
+    border-top: 10px solid  hsl(0, 78%, 62%);
+}
+
+.yellow{
+    justify-self: flex-end;
+    margin-top: 10px;
+    border-top: 10px solid hsl(34, 97%, 64%);
+}
+
+.blue{
+    border-top: 10px solid hsl(212, 86%, 64%);
+}
+
+.green{
+    border-top: 10px solid hsl(180, 62%, 55%);
+}
+
+@media only screen and (max-width: 990px) {
+    .card-container{
+        display: flex;
+        height: auto;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .card{
+        width: 300px;
+        height: 350px;
+    }
+    .sub-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
